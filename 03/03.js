@@ -22,8 +22,11 @@ const show = () => { //show함수에 값 대입 // 화살표 함수로 지정(�
     let n = Math.floor(Math.random() * 6) + 1 ;
     console.log(n); //사용자 눈에는 안보이는 프린트아웃.
 
+
+
+
     //해당하는 파일을 각 수에 맞게 출력.
-    // document.getElementById("h2Id").innerHTML = `<img src = "../img/${n}.png">`;
+    document.getElementById("h2Id").innerHTML = `<img src = "../img/${n}.png">`;
 
     //숫자에 해당되는 이미지 출력
     // document.getElementById("h2Id").innerHTML = "<img src = '../img/' + n +'.png'></img> ";
