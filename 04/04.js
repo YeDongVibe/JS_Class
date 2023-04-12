@@ -17,9 +17,11 @@ const show = () => {
     // }
 
     //랜덤수와 사용자입력수 같은지 검사
-    if (n == user) {
-        document.querySelector('article h1').innerHTML
-    }
+    // if (n == user) {
+    //     document.querySelector('article h1').innerHTML = '주사위게임 : 맞음(승)';
+    // } else {
+    //     document.querySelector('article h1').innerHTML = '주사위게임 : 틀림(패)';
+    // }
 
     //검사&결과 출력
     if (a == n) {
