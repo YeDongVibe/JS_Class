@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+
+    <script src="./04_2.js"></script>
+    <link rel="stylesheet" type="text/css" href="./04_2.css">
+
+    <title>온도변환</title>
+</head>
+
+<body>
+    <main class="container">
+
+        <article>
+            <header>
+                <h1>온도변환</h1>
+            </header>
+
+            <form>
+                <div class="grid">
+                    <select id="sel1">
+                        <option value="°C" selected>섭씨온도(°C)</option>
+                        <option value="°F">화씨온도(°F)</option>
+                    </select>
+
+                    <select id="sel2">
+                        <option value="°C">섭씨온도(°C)</option>
+                        <option value="°F" selected>화씨온도(°F)</option>
+                    </select>
+                </div>
+
+                <div class="grid">
+                    <input type="number" id="t1" name="t1">
+                    <div id="d1"></div>
+                    <input type="number" id="t2" name="t2" readonly>
+                    <div id="d2"></div>
+                </div>
+            </form>
+
+
+        </article>
+
+    </main>
+
+</body>
+
+</html>
