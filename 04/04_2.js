@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const sel1 = document.querySelector('#sel1');
+    const sel1 = document.querySelector('#sel1'); //변수 선언 : 아이디가 sel1인 돔요소를 선택
     const sel2 = document.querySelector('#sel2');
 
     const d1 = document.querySelector('#d1');
@@ -9,14 +9,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const t2 = document.querySelector('#t2');
 
     //단위 표시
-    d1.textContent = sel1.value;
+    d1.textContent = sel1.value; //d1의 값 표시가 sel1의 값이다.
     d2.textContent = sel2.value;
 
     //select 값 변경이 될때
-    sel1.addEventListener('change', (event) => {
+    sel1.addEventListener('change', (event) => { //event 객체를 받기
         //selToggle = (sel1, sel2, t1, t2);
 
-        d1.textContent = event.target.value;
+        d1.textContent = event.target.value; // 그 객체(타겟)의 값을 받아 표시.
         t1.value = '';
         t2.vlaue = '';
 
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (sel2.value == '°C') {
             sel1.value = '°F';
-        }
+        } 
         else if (sel2.value == '°F') {
             sel1.value = '°C';
         }
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
 //     return ctemp;
 // };
 
-//select 토글하여 메개변수 전달 변환줌.
+//select 토글하여 메개변수 전달 변환줌. 변화가 발생하는 것에 대해 대응하는 함수.(click했을 때 발생 혹은 미발생)
 // const selToggle = (s1, s2, t1, t2) => {
 //     t1.value = '';
 //     t2.vlaue = '';
