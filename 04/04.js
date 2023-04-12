@@ -9,13 +9,17 @@ const show = () => {
     let a = document.querySelector('input[name="num"]:checked').value;
     //let user;
     //const radios = document.querySelectorAll('imput[type=radio]');
-    for(let item of radios) {
-        if (item.checked) {
-            
-        }
+    // for(let item of radios) {
+    //     if (item.checked) {
+    //         user = item.value;
+    //         break;
+    //     }
+    // }
+
+    //랜덤수와 사용자입력수 같은지 검사
+    if (n == user) {
+        document.querySelector('article h1').innerHTML
     }
-
-
 
     //검사&결과 출력
     if (a == n) {
