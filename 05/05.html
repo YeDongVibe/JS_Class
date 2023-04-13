@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
 
+    <script src="./05.js"></script>
+
     <title>문자열 다루기</title>
 
 </head>
@@ -21,12 +23,12 @@
     <main class="container">
         <form>
             <div class="grid">
-                <input type="text" placeholder="단어를 입력하라." id="t1" name="t1">
+                <input type="text" id="t1" name="t1"  placeholder="단어를 입력하라.">
                 <input type="text" id="t2" name="t2" readonly>
             </div>
             <div class="grid">
-                <button type="submit">화문확인</button>
-                <button type="submit">숫자합계</button>
+                <button id = "bt1" class = "bt">화문확인</button> <!--form으로 묶어야지 reset, sybmit사용 가능-->
+                <button id = "bt2" class = "bt">숫자합계</button>
                 <button type="reset">취소</button>
             </div>
         </form>
