@@ -42,12 +42,17 @@ const palindrome = (t1, t2) => {
 const numSum = (t1, t2) => {
     let s = t1.value;
     let sum = 0;
-    //문자열 순회
+    //문자열 순회1
+    // for (let ch of s) {
+    //     if (isNaN(ch) == false) {
+    //         sum = sum + parseInt(ch);
+    //     }
+    //     console.log(ch, isNaN(ch));
+    // }
+
+    //문자열 순회2
     for (let ch of s) {
-        if (isNaN(ch) == false) {
-            sum = sum + parseInt(ch);
-        }
-        console.log(ch, isNaN(ch));
+        if (!isNaN(ch)) sum = sum + parseInt(ch);
     }
     t2.value = sum;
 
