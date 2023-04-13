@@ -19,6 +19,8 @@ const palindrome = (t1, t2) => {
     //2.배열을 이용하여 진행
     s = s.split(''); //문자열을 한 글자씩 쪼개어 배열. <문자열. split();>
     s = s.reverse(); //배열의 요소를 뒤집어줌. <배열.reverse();>
+
+    //문자열 변경
     // rs = s.toString(); //배열에 있는 것들을 쉼표를 통해 구분(배열의 요쇼를 문자열로 묶어줌) <배열.join();>
     rs = s.join(''); //배열에 있는 것들을 쉼표 없이 구분.
     console.log("s=", s, ",rs =", rs);
