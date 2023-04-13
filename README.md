@@ -1,5 +1,5 @@
 # K-digital 3기 FrontEnd 수업
-hosting 주소 : <a href =https://yedongvibe.github.io/JS_Class></a>
+hosting 주소 : <a href =https://yedongvibe.github.io/JS_Class>https://yedongvibe.github.io/JS_Class</a>
 + <a href = "./01/01.html">[23.04.10] Form 테그</a>
 + <a href = "./02/02.html">[23.04.10] Pico Css Form 테그</a>
 + <a href = "./03/03.html">[23.04.10] Pico Css Form 테그</a>
