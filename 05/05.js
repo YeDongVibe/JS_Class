@@ -40,7 +40,17 @@ const palindrome = (t1, t2) => {
 
 //숫자 합계
 const numSum = (t1, t2) => {
-    console.log('numSum');
+    let s = t1.value;
+    let sum = 0;
+    //문자열 순회
+    for (let ch of s) {
+        if (isNaN(ch) == false) {
+            sum = sum + parseInt(ch);
+        }
+        console.log(ch, isNaN(ch));
+    }
+    t2.value = sum;
+
 };
 
 
