@@ -120,6 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
             for (let item of arr) {
                 switch (gubun) {
                     case '사케':
+                        // arr = arr.map((item)=> item =='🍶'?'🥛' : item);//map을 이용해 변환 : if else대신에
                         if (item == '🍶') temp.push('🥛');
                         else temp.push(item);
                         break;

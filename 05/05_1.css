@@ -1,4 +1,20 @@
-:root {
+.bt1{
+  background-color: purple;
+  border : none;
+}
+.bt2{
+  background-color: rgb(35, 184, 60);
+  border : none;
+}
+.bt3{
+  background-color: rgb(223, 191, 51);
+  border : none;
+}
+.btR{
+  background-color: rgb(45, 101, 255);
+  border : none;
+}
+/* :root {
     --primary: #8e24aa;
   }
 
@@ -18,4 +34,4 @@
       --primary-inverse: #FFF;
     }
   }
-  
+   */
