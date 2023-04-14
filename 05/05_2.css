@@ -1,0 +1,13 @@
+.bt1 {
+    width: 170px;
+	height: 170px;
+    background-color: white;
+    border-width: 1px;
+    border : gray solid;
+}
+
+.gird1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
