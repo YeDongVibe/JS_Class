@@ -8,3 +8,4 @@ hosting 주소 : <a href =https://yedongvibe.github.io/JS_Class>https://yedongvi
 + <a href = "./04/04.html">[23.04.12] (주사위게임)랜덤수 지정 및 출력(+정답) </a>
 + <a href = "./04/04_2.html">[23.04.12] 온도변환 </a>
 + <a href = "./05/05.html">[23.04.13] 문자열 다루기 </a>
++ <a href = "./05/05_1.html">[23.04.14] 배열 다루기 </a>
