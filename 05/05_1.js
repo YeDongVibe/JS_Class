@@ -2,8 +2,8 @@
 // getAttribute : 위의 과정을 가지고 집어온 것을 통해 속성값(아이디, 클래스)을 찾아오겠다.
 
 //배열에서 많이 사용하는 함수
-//Map : 기존 배열을 기반으로 새로운 배열을 만듬.<arr.filter((아이템)=>{조건식})> : 조건식에 맞는 배열만 새로 만들어짐.
-//filter : 기존 배열을 기반으로 새로운 배열을 만듬.<arr.map((아이템)=>{조건식})> : 아이템을에 대해 조건식에 맞는 결과를 새로운 배열을 만들어냄.
+//Map : 기존 배열을 기반으로 새로운 배열을 만듬.<arr.filter((아이템)=>{조건식})> : 처음부터 끝까지 순회하며 동작에 필요한 부분을 조건식에 맞추어 배열만 새로 만들어짐.
+//filter : 기존 배열을 기반으로 새로운 배열을 만듬.<arr.map((아이템)=>{조건식})> : 아이템에 대해 조건식에 맞는 결과를 새로운 배열을 만들어냄.
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             switch (bt1.textContent) {
                 case '사케':
-                    arr.push('🍶'); //이모티콘 넣기
+                    arr.push('🍶'); //배열에 자료추가
                     break;
                 case '칵테일':
                     arr.push('🍸');
