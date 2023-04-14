@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
         //클릭이라는 이벤트를 통해 call back함수 내용 처리
         bt2.addEventListener('click', (event) => {
             event.preventDefault(); //form때문에 페이지 재로딩이 되기에 그를 방지하고자 이 코드 사용.
-            let gubun = bt2.textContent.replace(' 삭제', '').trim(); //replace를 통해 문자열에서 삭제를 날려 사용.
+            let gubun = bt2.textContent.replace(' 삭제', '').trim(); //replace를 통해 문자열에서 삭제를 날려 사용.//<.trim>은 공백제거 후 판단
             console.log('gubun', gubun);
             switch (gubun) {
                 case '사케':
