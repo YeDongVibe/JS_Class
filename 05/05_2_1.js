@@ -52,11 +52,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (arr[n - 1] == 0) {//하트 가져오기
                     bt1.innerHTML = '<img src = "../img/heart.png">';
                     if (cnt == 8) {
+                        flag = true;
                         document.querySelector('h2').innerHTML = '성공했네...?';
 
-                        let lastArr = [1, 2, 3, 4, 5, 6, 7, 8, 9].filter((item) => !selarr.includes(item));
-                        console.log ("lastarr = ", lastArr[0])
-                        boxs[lastArr[0]-1].innerHTML = '<img src = "../img/heart.png">';
+                        //차집합이용
+                        // let lastArr = [1, 2, 3, 4, 5, 6, 7, 8, 9].filter((item) => !selarr.includes(item));
+                        // console.log ("lastarr = ", lastArr[0])
+                        // boxs[lastArr[0]-1].innerHTML = '<img src = "../img/heart.png">';
+
+                        let lastn = arr.findIndex ((item)=>item == 1);
+                        console.log('find =', lastn)
+                        boxs[lastn].innerHTML = '<img src = "../img/heart.png">';
                     }
                 }
                 else {//폭탄 가져오기.
