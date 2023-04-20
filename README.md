@@ -10,3 +10,4 @@ hosting 주소 : <a href =https://yedongvibe.github.io/JS_Class>https://yedongvi
 + <a href = "./05/05.html">[23.04.13] 문자열 다루기 </a>
 + <a href = "./05/05_1.html">[23.04.14] 배열 다루기 </a>
 + <a href = "./05/05_2.html">[23.04.18] 폭탄게임 </a>
++ <a href = "./06/06.html">[23.04.20] 영화리스트업  </a>
